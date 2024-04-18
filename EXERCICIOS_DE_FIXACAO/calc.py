@@ -13,17 +13,17 @@ def subtracao(valor1, valor2):
 def multiplicacao(valor1, valor2):
     multiplicacao = valor1 * valor2
 
-def divisao(valor1 + valor2):
+def divisao(valor1, valor2):
     divisao = valor1 / valor2
 
 valor1 = int(input("N1: "))
-operador = input("1.soma\n2.subtração\n3.")
+operador = input("1.soma\n2.subtração\n3.multiplicação\n4.divisão")
 valor2 = int(input("N2: "))
 
 
 
-if operador == "+":
-    resultado = valor1 + valor2
+if operador == "1":
+    soma()
     print("Resultado:",soma())
 
 elif operador == "-":
@@ -37,5 +37,3 @@ elif operador == "*":
 elif operador == "/":
     resultado = valor1 / valor2
     print("Resultado:",resultado)
-
-    
